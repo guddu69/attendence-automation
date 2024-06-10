@@ -26,7 +26,12 @@ users = [
 ```
 
 2. **Page Link** : Provide moodel links if **outside thapar**.
-   Example: 1. Login page `driver.get("https://lms.thapar.edu/moodle/login/")` 2. Attendence page `url = "https://lms.thapar.edu/moodle/mod/attendance/view.php?id=" + sub_id` you can also omit sub_id.
+
+   Example:
+
+   1. Login page `driver.get("https://lms.thapar.edu/moodle/login/")`
+   2. Attendence page `url = "https://lms.thapar.edu/moodle/mod/attendance/view.php?id=" + sub_id` you can also omit sub_id.
+
 3. **Attendance Code**: Provide the attendance code in the script as needed.
 
 ## Files:
