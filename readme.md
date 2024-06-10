@@ -1,7 +1,6 @@
 # Attendence Automation
 
-This project is designed to automate the process of marking attendance on Moodle for multiple users. By using Selenium, a powerful tool for controlling web browsers through programs, this script efficiently logs into Moodle and marks attendance by entering a provided code simultaneously using Threading.
-This is a ideal solution for students who wish to mark multiple attendence at once on Moodel (LMS).
+This project is designed to automate the process of marking attendance on Moodle for multiple users. By using Selenium, a powerful tool for controlling web browsers through programs, this script efficiently logs into Moodle and marks attendance by entering a provided code simultaneously using Threading. This is a ideal solution for students who wish to mark multiple user attendence at once on Moodel (LMS).
 
 ## Features
 
@@ -12,10 +11,8 @@ This is a ideal solution for students who wish to mark multiple attendence at on
 ## Prerequisites
 
 1. **python3**
-2. **Selenium WebDriver**:
-   `cd attendence-automation`
-   `pip install selenium`
-3. **ChromeDriver**: Download from ![here](https://googlechromelabs.github.io/chrome-for-testing/) accordings to you system, now extract and place the chromedriver.exe file in the root folder.
+2. **Selenium WebDriver**: `pip install selenium` in the attendence-automation repository
+3. **ChromeDriver**: Download from [here](https://googlechromelabs.github.io/chrome-for-testing/) according to you system, now extract and place the chromedriver.exe file in the root (attendence-automation) folder.
 
 ## Configuration
 
@@ -28,7 +25,8 @@ users = [
 ]
 ```
 
-2. **Page Link** : Provide moodel link (home page and attendence page).
+2. **Page Link** : Provide moodel links if **outside thapar**.
+   Example: 1. Login page `driver.get("https://lms.thapar.edu/moodle/login/")` 2. Attendence page `url = "https://lms.thapar.edu/moodle/mod/attendance/view.php?id=" + sub_id` you can also omit sub_id.
 3. **Attendance Code**: Provide the attendance code in the script as needed.
 
 ## Files:
