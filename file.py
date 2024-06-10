@@ -58,13 +58,14 @@ def perform(moodle_mail, moodle_pass, sub_id, event):
 
 def subjects(moodle_mail, moodle_pass, event):
     # you can modify this section
+    # These are subjects and their codes for attedence page
     sub = {
-        "CG": "126662", # Computer Graphics
-        "QC": "126275", # Quantum Computing
-        "TOC": "126734", # Theory of Computation
-        "PA": "122704", # Predictive analysis
-        "PAL": "126144", # Predictive analysis Lab
-        "ADS": "126669" # Accelerated data science
+        "CG": "126662",
+        "QC": "126275",
+        "TOC": "126734",
+        "PA": "122704",
+        "PAL": "126144", 
+        "ADS": "126669" 
     }
     sub_id = sub[sub_name]
     perform(moodle_mail, moodle_pass, sub_id, event)
