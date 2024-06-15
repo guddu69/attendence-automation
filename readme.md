@@ -14,7 +14,7 @@ There are three files, run any one according to the need.
 
 1. **python3**
 2. **Selenium WebDriver**: `pip install selenium` in the attendence-automation repository (Try using pip3 is pip command does not work).
-3. **ChromeDriver**: Download from [here](https://googlechromelabs.github.io/chrome-for-testing/) according to you system, now extract and place the chromedriver.exe file in the root (attendence-automation) folder.
+3. **ChromeDriver**: Download from [here](https://googlechromelabs.github.io/chrome-for-testing/) according to your system, now extract and place the chromedriver.exe file in the root (attendence-automation) folder.
 
 ## Configuration
 
